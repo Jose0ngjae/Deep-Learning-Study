@@ -8,6 +8,6 @@
 $$o = \tau(s) = \tau\left(\sum_{i=1}^{d} w_i x_i + w_0 x_0\right)$$
 
 $$
-\tau(s) = \begin{cases} +1, & s > 0 
-\\ -1, & s < 0 \end{cases}
+\tau(s) = \begin{cases} +1, & s > 0 \\ 
+-1, & s < 0 \end{cases}
 $$

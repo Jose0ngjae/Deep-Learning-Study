@@ -63,16 +63,12 @@ $$
 - 이를 손실 함수에 적용하면 다음과 같다.
 
 $$
+\begin{aligned}
 \frac{\partial J}{\partial w_i}
-=
-\sum_{x\in I}
-\frac{\partial[-y(wx^T)]}{\partial w_i}
-$$
-
-$$
-\frac{\partial J}{\partial w_i}
-=
-\sum_{x\in I}-yx_i
+&= \sum_{x \in I}
+\frac{\partial[-y(wx^T)]}{\partial w_i} \\
+&= \sum_{x \in I} -yx_i
+\end{aligned}
 $$
 
 - 따라서 손실 함수의 기울기는 오분류된 샘플의 정답과 입력값을 이용하여 계산할 수 있다.

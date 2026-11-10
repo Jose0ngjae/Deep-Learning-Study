@@ -5,3 +5,4 @@
 
 ## MLP 구조
 ![MLP 구조](images/MLP_Structure.png)
+인접한 두 층의 뉴런이 모두 연결된 완전연결층(Fully Connected Layer) 을 사용함

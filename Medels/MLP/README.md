@@ -30,7 +30,7 @@ $$
 대표적인 활성화 함수인 ReLU는 다음과 같다.
 
 $$
-\operatorname{ReLU}(z) = \max(0,z)
+\mathrm{ReLU}(z) = \max(0, z)
 $$
 
 - $z_j$: 가중합

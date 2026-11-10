@@ -87,7 +87,7 @@ $$
 순전파를 통해 계산한 예측값과 실제 정답을 비교하여 손실을 계산함.
 Cross-Entropy를 주로 사용함.
 
-Cross-Entropy
+<p align="center"><strong>Cross-Entropy</strong></p>
 
 $$
 L = -\sum_{j=1}^{K} y_j \log(\hat{y}_j)
